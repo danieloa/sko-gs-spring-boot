@@ -46,7 +46,7 @@ spec:
             configuration: 'flow-sko-jenkins-config',
             projectName: 'user6-project',
             pipelineName: 'user6pl',
-            addParam: '{"pipeline":{"pipelineName":"user6pl","parameters":"[{\\\"parameterName\\\": \\\"jenkinsJobName\\\", \\\"parameterValue\\\": \\\"'+"${env.JOB_NAME}"+'\\\"},{\\\"parameterName\\\": \\\"jenkinsBuildNumber\\\", \\\"parameterValue\\\": \\\"'+"${env.BUILD_NUMBER}"+'\\\"}]"}}'
+            addParam: '{"pipeline":{"pipelineName":"user6pl","parameters":"[{\\\"parameterName\\\": \\\"jenkinsBuildNumber\\\", \\\"parameterValue\\\": \\\"'+"${env.BUILD_NUMBER}"+'\\\"}]"}}'
           ])
         }
       }
